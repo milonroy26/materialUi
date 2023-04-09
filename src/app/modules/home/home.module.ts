@@ -14,8 +14,11 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
-
-
+import {MatSelectModule} from '@angular/material/select';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {MatStepperModule} from '@angular/material/stepper';
+import {MatIconModule} from '@angular/material/icon';
 
 
 
@@ -38,7 +41,12 @@ import {MatInputModule} from '@angular/material/input';
     MatDatepickerModule,
     MatExpansionModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatSelectModule,
+    MatSidenavModule,
+    MatSnackBarModule,
+    MatStepperModule,
+    MatIconModule
   ]
 })
 export class HomeModule { }
